@@ -29,7 +29,10 @@ class _TestState extends State<Test> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Countries"),
+        title: Text(
+          "Countries",
+          style: TextStyle(color: Colors.brown),
+        ),
       ),
       body: ListView.builder(
           itemCount: countriesName.length,
